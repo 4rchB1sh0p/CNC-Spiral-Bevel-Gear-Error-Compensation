@@ -1,45 +1,41 @@
-# Two wheeled self balancing robot
+# CNC Spiral Bevel Gear Error Compensation
 
-A two-wheeled self-balancing robot, PID control architecture. Four PID controllers are implemented to control the position, velocity, rotation and the tilt angle of the robot. 
+## Project Description
+This project studies the method of laser vector measurement, error detection principle of spiral bevel gears, and compensates the volumetric error of CNC spiral bevel gear grinding machines.
 
-## Description of 4 Tasks and demonstration
-[1. Driving as fast as possible a distance of 3m.](https://youtu.be/GVCfIpjXQpA)
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Methodology](#methodology)
+3. [Experimentation and Results](#experimentation-and-results)
+4. [Conclusion](#conclusion)
+5. [Future Work](#future-work)
+6. [References](#references)
+7. [Code Examples](#code-examples)
 
-[2. Similar to 1. But additionally a 360° turn at about 1m and 2m travelled.](https://youtu.be/I-p1T8EGFV4)
+## Introduction
+This section provides a brief introduction to the problem, its significance, and the objectives of the project.
 
-[3. During balancing an additional weight is added and the robot compensate it (stay/return).](https://youtu.be/bfeMjUOOEl0)
+## Methodology
+### Laser Vector Measurement
+Describe the method used to measure vectors using lasers.
 
-[4. Driving a figure 8 by combining two circles with 1m diameter each.](https://youtu.be/K3pilkZ1mBU)
+### Error Detection Principle
+Explain the principle behind error detection in spiral bevel gears.
 
-## Repository Contents
-- **code** - Simulink models and codes
-- **images** - Images of the robot and the hardware
-- **schematics** - Hardware schematic of the robot
+### Error Compensation Techniques
+Detail the techniques used to compensate for volumetric errors.
 
-## The self balancing two wheeled robot
-![](https://github.com/4rchB1sh0p/Two-Wheeled-Robot/blob/main/images/robot_1.JPG)
+## Experimentation and Results
+Describe the experimental setup, data collection methods, and data analysis.
 
-## Hardware
-![](https://github.com/4rchB1sh0p/Two-Wheeled-Robot/blob/main/images/hardware.JPG)
+## Conclusion
+Summarize the findings and their implications.
 
-![](https://github.com/4rchB1sh0p/Two-Wheeled-Robot/blob/main/images/hardware_2.JPG)
+## Future Work
+Discuss potential future work and improvements.
 
+## References
+List all the references and sources used in the project.
 
-## Mainboard
-![](https://github.com/4rchB1sh0p/Two-Wheeled-Robot/blob/main/images/mainBoard.JPG)
-
-
-1. Arduino MKR1010 WiFi
-2. BLDC motor driver
-3. motor connector -> connect to the 3 pin motor driver connector
-4. inertial measurement unit (IMU) - MPU 6050
-5. 5V DC-DC regulator
-6. deep discharge protection IC
-7. logic level shifter (3,3V <-> 5V)
-8. off/on switch
-9. I/O header pins for prototype shield
-10. ultra sonic ranger connector
-11. line finder connector (left and right)
-12. battery main connector
-13. battery balance connector
-14. charger balance connector
+## Code Examples
+Find main.py for the methods and analysis used in the project.
