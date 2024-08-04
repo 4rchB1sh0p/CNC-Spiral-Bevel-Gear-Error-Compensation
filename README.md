@@ -9,11 +9,10 @@ This project studies the method of laser vector measurement, error detection pri
    - [Brief Introduction](#brief-introduction)
    - [Conventional Body Diagonal Method](#conventional-body-diagonal-method)
    - [Laser Vector Measurement Method](#laser-vector-measurement-method)
-3. [Experimentation and Results](#experimentation-and-results)
-4. [Conclusion](#conclusion)
-5. [Future Work](#future-work)
-6. [References](#references)
-7. [Code Examples](#code-examples)
+3. [Conclusion](#conclusion)
+4. [Future Work](#future-work)
+5. [References](#references)
+6. [Code Examples](#code-examples)
 
 ## Introduction
 Spiral bevel gears are crucial parts in the mechanical transmission area. The theory of designing and cutting gear teeth is very complicated. The last working procedure of processing spiral bevel gears is grinding in the computer numerical control (CNC) spiral bevel gear grinding machine. The volumetric error of the grinding machine decides the machining precision to a certain extent. Machining precision of CNC spiral bevel gear grinding machine can be improved through testing and compensating the volumetric error. That's what we will do.
@@ -28,9 +27,6 @@ In order to evaluate the volumetric performance of the machine tools and test vo
 
 ### Laser Vector Measurement Method
 In contrast to the method of conventional body diagonal, the measuring and moving direction in the method of laser vector measurement can be in different directions. Such as the diagonal a􀄺g (ppp), the measuring route in laser vector measurement is as follows: beginning from the point a, firstly move Dx along the positive X axis at a certain rate and pause for several seconds, secondly move Dy along the positive Y axis at a certain rate and pause for several seconds, lastly move Dz along the positive Z axis at a certain rate and pause for several seconds. Repeat the previous steps until arriving at point g. In the course, every data only includes the errors of one axis, so it is convenient to separate the positioning and linear errors from the volumetric error.
-
-## Experimentation and Results
-Describe the experimental setup, data collection methods, and data analysis.
 
 ## Conclusion
 In this study, we tested the volumetric error of the CNC spiral bevel gear grinding machine with the laser vector measurement method, compensated the volumetric error with the software error compensation method, and detected the errors of the spiral bevel gear before and after compensating the volumetric error. Experiments show that the effective compensating of the volumetric error reduces the machining error and improves the machining precision of the machine tool to a certain extent.
